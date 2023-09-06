@@ -12,13 +12,16 @@ _Software is created in Visual Studio 2022 preview_
 
 **How software works?**
 Software runs node.js to compile the web scripts and it runs locally on port 44498.
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/d21f57f5-d7c7-4215-b7c6-afac2920312f)
 
 As this is a prototype (demonstration) it comes with a basic UI which allows CRUD operations on RFID allowed users and it has 
 no authentication which can be additionaly added.
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/9cb5e757-f12b-4bb2-9fc4-5c42aa566ff6)
 
 Also, Swagger is available on port 7274 (https://localhost:7274/swagger/index.html).
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/54f17ca5-4b60-418f-91f3-4749d1a08d9a)
 
 Backend runs 'DatabaseService" and "ReceiverService"
