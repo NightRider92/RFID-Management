@@ -33,6 +33,7 @@ Backend runs 'DatabaseService" and "ReceiverService"
 Project has been done it approximately ~ 12 hours from the scratch (including debugging, googling, etc ...)
 
 Project setup in Visual Studio 2022
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/41f00880-72e9-4206-b087-decf5cc7485f)
 
 
