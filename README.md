@@ -43,7 +43,8 @@ Backend runs 'DatabaseService" and "ReceiverService"
 
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/15ca2b02-e44d-43ae-9a2e-3319b0f88925)
 
-Project has been done it approximately ~ 12 hours from the scratch.
+Project has been done in approximately ~ 12 hours from the scratch.
+
 Project can be easily be extended to operate RS-232 or RS-485 (e.g. on Linux embedded device) to receive the RFID-values and to 
 operate GPIOs to perform e.g. "door-opening" or similar things.
 
