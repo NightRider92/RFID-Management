@@ -21,6 +21,7 @@ Software runs node.js to compile the web scripts and it runs locally on port 444
 
 As this is a prototype (demonstration) it comes with a basic UI which allows CRUD operations on RFID allowed users and it has 
 no authentication which can be additionaly added. Of course, project has been set-up to be easily extended depending of what user needs.
+Be advised that the purpose of this prototyp project was not "styling" of UI. It can be easily done later.
 
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/9cb5e757-f12b-4bb2-9fc4-5c42aa566ff6)
 
