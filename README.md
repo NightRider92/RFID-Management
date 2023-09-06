@@ -33,8 +33,15 @@ Backend runs 'DatabaseService" and "ReceiverService"
 - Database service operates Entity Framework for performing CRUD operations on users
 - Receiver services is a simple TCP listener which intercepts and handles the incoming TCP data
 
+Testing of TCP client connection
+
+![image](https://github.com/NightRider92/RFID-Management/assets/10942663/d0124add-12ed-4ae1-9ebb-9e4dea2793cb)
+
+Results
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/15ca2b02-e44d-43ae-9a2e-3319b0f88925)
 
 Project has been done it approximately ~ 12 hours from the scratch (including debugging, googling, etc ...)
+
 
 
