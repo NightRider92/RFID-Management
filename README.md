@@ -21,7 +21,7 @@ Software runs node.js to compile the web scripts and it runs locally on port 444
 
 As this is a prototype (demonstration) it comes with a basic UI which allows CRUD operations on RFID allowed users and it has 
 no authentication which can be additionaly added. Of course, project has been set-up to be easily extended depending of what user needs.
-Be advised that the purpose of this prototyp project was not "styling" of UI. It can be easily done later.
+Be advised that the purpose of this prototype project was not "styling" of UI. It can be easily done later.
 
 In details, UI communicates with the backend server which communicates with the Entity Framework to provide data.
 
