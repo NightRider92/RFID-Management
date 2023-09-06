@@ -1,0 +1,21 @@
+<div class="users-container">
+  <div class="users-inner-container">
+    <table align="center" width="50%" id="users-table">
+      <tr>
+        <th>Username</th>
+        <th>Rfid value</th>
+        <th>Created time</th>
+        <th>Remove</th>
+      </tr>
+      <tr>
+        <td><button class="btn-primary" id="add-user-btn" (click)="addUser()">Add user</button></td>
+      </tr>
+      <tr *ngFor="let i of response" id="row{{i.id}}">
+        <td>{{i.username}}</td>
+        <td>{{i.value}}</td>
+        <td>{{i.createdTime}}</td>
+        <td width="160px"><button class='btn-primary-red' id="{{i.id}}" (click)="removeUser(i.id)">Remove</button></td>
+      </tr>
+    </table>
+  </div>
+</div>

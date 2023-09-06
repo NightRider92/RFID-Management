@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32912.340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular.NET", "Angular.NET\Angular.NET.csproj", "{9DFBDC64-CEC5-420A-80FC-98A9D9DD0DCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular.NET.Database", "Angular.NET.Database\Angular.NET.Database.csproj", "{001ECEB5-F472-4474-89BE-1B92683D8EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular.NET.Receiver", "Angular.NET.Receiver\Angular.NET.Receiver.csproj", "{E65B354F-CAB4-41D1-A224-3C802E62641F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DFBDC64-CEC5-420A-80FC-98A9D9DD0DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFBDC64-CEC5-420A-80FC-98A9D9DD0DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFBDC64-CEC5-420A-80FC-98A9D9DD0DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFBDC64-CEC5-420A-80FC-98A9D9DD0DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001ECEB5-F472-4474-89BE-1B92683D8EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001ECEB5-F472-4474-89BE-1B92683D8EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001ECEB5-F472-4474-89BE-1B92683D8EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001ECEB5-F472-4474-89BE-1B92683D8EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65B354F-CAB4-41D1-A224-3C802E62641F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65B354F-CAB4-41D1-A224-3C802E62641F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65B354F-CAB4-41D1-A224-3C802E62641F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65B354F-CAB4-41D1-A224-3C802E62641F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B18F88A7-458A-41EB-9285-D98C680EC36A}
+	EndGlobalSection
+EndGlobal

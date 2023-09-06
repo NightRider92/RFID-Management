@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+
+@keyframes menu-item-anim {
+  from {
+    background-color: #398ee6;
+  }
+
+  to {
+    background-color: #1b6ec2
+  }
+}
+
+@keyframes btn-anim {
+  from {
+    background-color: #1b6ec2;
+  }
+
+  to {
+    background-color: #1b99c2
+  }
+}
+
+@keyframes remove-btn-anim {
+  from {
+    background-color: #b92e2e;
+  }
+
+  to {
+    background-color: #d72121
+  }
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  width: 210px;
+  font-family: Verdana;
+  font-size: small;
+  width: 150px;
+}
+
+  .btn-primary:hover {
+    background-color: #1b99c2;
+    animation-name: btn-anim;
+    animation-duration: 2s;
+  }
+
+.btn-primary-red {
+  color: #fff;
+  background-color: #b92e2e;
+  width: 210px;
+  font-family: Verdana;
+  font-size: small;
+  width: 150px;
+}
+
+  .btn-primary-red:hover {
+    background-color: #d72121;
+    animation-name: remove-btn-anim;
+    animation-duration: 2s;
+  }
+
+h3 {
+  color: white;
+  vertical-align: central;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-family: Verdana;
+  background-color:#353535
+}
+
+h5 {
+  color: white;
+  vertical-align: central;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+.footer-text {
+  color: white;
+  vertical-align: central;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  font-family: Verdana;
+  font-size: small;
+}
+
+menu {
+  position: absolute;
+  top: 50px;
+  padding: 0px;
+  display: block;
+  list-style: none;
+  width: 100%;
+  height: 90%;
+  background-color: inherit;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-family: Verdana;
+  font-size: small;
+  border-bottom: 1px solid #333333;
+  color:white;
+}
+
+  li:hover {
+    background-color: #1b6ec2;
+    animation-name: menu-item-anim;
+    animation-duration: 1s;
+  }
+
+table {
+  position: absolute;
+  top: 25px;
+  left: 25%;
+  margin: 0px;
+  border: 1px solid #808080;
+}
+
+tr:nth-child(even) {
+  background-color: #4e4d4d;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #333333;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
