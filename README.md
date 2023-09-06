@@ -43,7 +43,7 @@ Backend runs 'DatabaseService" and "ReceiverService"
 
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/15ca2b02-e44d-43ae-9a2e-3319b0f88925)
 
-Project has been done it approximately ~ 12 hours from the scratch (including debugging, googling, etc ...)
+Project has been done it approximately ~ 12 hours from the scratch.
 
 
 
