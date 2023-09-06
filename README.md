@@ -10,6 +10,10 @@ The purpose of this project is a demonstration of:
 
 _Software is created in Visual Studio 2022 preview_
 
+**Project setup in Visual Studio 2022**
+
+![image](https://github.com/NightRider92/RFID-Management/assets/10942663/41f00880-72e9-4206-b087-decf5cc7485f)
+
 **How software works?**
 Software runs node.js to compile the web scripts and it runs locally on port 44498.
 
@@ -31,9 +35,5 @@ Backend runs 'DatabaseService" and "ReceiverService"
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/15ca2b02-e44d-43ae-9a2e-3319b0f88925)
 
 Project has been done it approximately ~ 12 hours from the scratch (including debugging, googling, etc ...)
-
-Project setup in Visual Studio 2022
-
-![image](https://github.com/NightRider92/RFID-Management/assets/10942663/41f00880-72e9-4206-b087-decf5cc7485f)
 
 
