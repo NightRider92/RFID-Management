@@ -23,6 +23,8 @@ As this is a prototype (demonstration) it comes with a basic UI which allows CRU
 no authentication which can be additionaly added. Of course, project has been set-up to be easily extended depending of what user needs.
 Be advised that the purpose of this prototyp project was not "styling" of UI. It can be easily done later.
 
+In details, UI communicates with the backend server which communicates with the Entity Framework to provide data.
+
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/9cb5e757-f12b-4bb2-9fc4-5c42aa566ff6)
 
 Also, Swagger is available on port 7274 (https://localhost:7274/swagger/index.html).
@@ -33,11 +35,11 @@ Backend runs 'DatabaseService" and "ReceiverService"
 - Database service operates Entity Framework for performing CRUD operations on users
 - Receiver services is a simple TCP listener which intercepts and handles the incoming TCP data
 
-Testing of TCP client connection
+**Testing of TCP client connection**
 
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/d0124add-12ed-4ae1-9ebb-9e4dea2793cb)
 
-Results
+**Results**
 
 ![image](https://github.com/NightRider92/RFID-Management/assets/10942663/15ca2b02-e44d-43ae-9a2e-3319b0f88925)
 
